@@ -1,5 +1,5 @@
 output "bucket_name" {
-  description = "Bucket IDt"
+  description = "Bucket ID"
   value       = aws_s3_bucket.test_bucket.id
 }
 
